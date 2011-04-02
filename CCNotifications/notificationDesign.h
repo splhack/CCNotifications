@@ -29,7 +29,7 @@
 #import "CCNotifications.h"
 #import "cocos2d.h"
 
-@interface CCNotificationDefaultDesign : CCColorLayer <CCNotificationDesignProtocol>
+@interface CCNotificationDefaultDesign : CCLayerColor <CCNotificationDesignProtocol>
 {
 	CCLabelTTF *title_;
 	CCLabelTTF *message_;
